@@ -5,9 +5,17 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.103"
+base64 = "0.22"
+config = "0.15.25"
 dashmap = "6.2.1"
 dotenvy = "0.15.7"
+futures-util = "0.3"
+http = "1"
 poise = "0.6.2"
+rig = "0.39.0"
+serde = "1.0.228"
+serde_json = "1.0"
 songbird = { version = "0.6.0", features = ["receive"] }
 tokio = { version = "1.52.3", features = ["full"] }
+tokio-tungstenite = { version = "0.26.0", features = ["native-tls"] }
 tracing-subscriber = "0.3.23"

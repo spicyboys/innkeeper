@@ -1,4 +1,5 @@
 mod commands;
+mod settings;
 mod voice_events;
 
 use std::env;
